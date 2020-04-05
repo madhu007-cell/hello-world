@@ -4,7 +4,7 @@ pipeline {
     stage('error') {
       steps {
         sh 'git clone https://github.com/madhu007-cell/hello-world.git'
-        sh 'sh mvn clean package'
+        sh 'sh \'mvn clean package\''
       }
     }
 
