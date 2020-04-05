@@ -11,7 +11,7 @@ pipeline {
         sh 'git clone https://github.com/madhu007-cell/hello-world.git'
         sh '''stage(build)
 
-sh mvn clean package'''
+sh " mvn clean package"'''
       }
     }
 
